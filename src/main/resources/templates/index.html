@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helper</title>
+
+    <!-- ✅ Load CSS via Thymeleaf -->
+    <link rel="stylesheet" th:href="@{style.css}">
+</head>
+<body>
+<h1>Helper is Ready To Help </h1>
+
+<div class="box">
+    <button class="btn sendbtn" type="button" id="disconnectBtn">Disconnect</button>
+</div>
+
+<div class="container" id="chatContainer">
+    <!-- Messages will appear here dynamically -->
+</div>
+
+<div class="send">
+    <form id="send-container" onsubmit="return false;">
+        <input type="text" class="input connectInput" id="connection" placeholder="Enter your name...">
+        <button class="btn connectbtn" type="button" id="btnConnection">Connect</button>
+
+        <input type="text" class="input" id="messageInp" placeholder="Enter your message...">
+        <button class="btn" type="button" id="btnSend">Send</button>
+    </form>
+</div>
+
+<!-- ✅ Load JS via Thymeleaf -->
+<script th:src="@{script.js}"></script>
+</body>
+</html>
