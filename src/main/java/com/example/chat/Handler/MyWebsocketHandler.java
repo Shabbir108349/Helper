@@ -16,7 +16,7 @@ public class MyWebsocketHandler extends TextWebSocketHandler {
     @Override
     public void afterConnectionEstablished(WebSocketSession session) throws Exception {
         sessions.add(session);
-        log.info(session.getId() +" is joined");
+        log.info(session.getId()," is joined");
     }
 
     @Override

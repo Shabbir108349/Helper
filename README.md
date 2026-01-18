@@ -38,22 +38,20 @@ It allows users to connect, send messages, and disconnect in real time — just 
 ## How to use this application
 
 ```bash
-https://socket-e70w.onrender.com
+https://chat-app-l06s.onrender.com/home
 ```
-- Copy and paste this link to any browser and first time wait **50s** please. I can explain you , since I am using free version of render so after sometimes of inactivity render forcefully sleep it and when first time any request come than it takes sometimes to be ready to response.
-
 - On browser you can use it on multiple tab or mobile phone.
 
 
 ## You can also docker to use this image
 
 ```bash
-docker run -d --name helper -p8000:8080 shabbir108349/socket-helper 
+docker run -d --name chat -p8000:8080 shabbir108349/chat-app
 ```
 - First execute the given command on terminal then go to the browser and write 
 
 ```bash
-localhost:8000
+http://localhost:8000/home
 ```
 - Then the service will show on your browser and you can enjoy . After all if you have any issue to execute or understand this application, please contact with me.
 
