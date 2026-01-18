@@ -40,10 +40,10 @@ It allows users to connect, send messages, and disconnect in real time — just 
 ```bash
 https://chat-app-l06s.onrender.com/home
 ```
-- On browser you can use it on multiple tab or mobile phone.
+- On browser, you can use it on multiple tab or mobile phone.
 
 
-## You can also docker to use this image
+## You can also use Docker to use this image
 
 ```bash
 docker run -d --name chat -p8000:8080 shabbir108349/chat-app
@@ -53,16 +53,14 @@ docker run -d --name chat -p8000:8080 shabbir108349/chat-app
 ```bash
 http://localhost:8000/home
 ```
-- Then the service will show on your browser and you can enjoy . After all if you have any issue to execute or understand this application, please contact with me.
+- Then the service will show on your browser and you can enjoy it. After all if you have any issue to execute or understand this application, please contact with me.
 
 
 
 ##🧑‍💻 Author
 
-Shabbir Hassain , 
-A passionate Java developer who loves building real-time web applications using Spring Boot.
-
-📫 Contact: shabbirhassain24@gmail.com
-
+Shabbir Hassain ,
+A passionate Java developer who loves building real-time web applications using Spring Boot.<br>
+📫 Contact: shabbirhassain24@gmail.com <br>
 🌐 GitHub: https://github.com/Shabbir108349
 
